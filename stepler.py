@@ -1,8 +1,8 @@
 
 #https://github.com/platta349/dz0207
 
-text1 = "Питон — мощный язык программирования. Он широко используется в науке о данных."
-text2 = "Питон хорош для анализа данных. Он также используется в веб-разработке."
+text1 = str(input())
+text2 = str(input())
 symbols = ".,!?:;'\"-—"
 for symbol in symbols:
     text1 = text1.replace(symbol, '')
