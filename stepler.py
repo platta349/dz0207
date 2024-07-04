@@ -10,6 +10,9 @@ for symbol in symbols:
 text1 = text1.lower()
 text2 = text2.lower()
 
+text1 = text1.split()
+text2 = text2.split()
+
 uniqaln_slova1 = set(text1)
 uniqaln_slova2 = set(text2)
 
